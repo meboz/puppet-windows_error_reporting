@@ -13,12 +13,13 @@
 class windows_error_reporting(
   $disabled = true
 ) {
-  
-  $regkey = ''
-  
-	registry_value { 'HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\Disabled':
-	  ensure => present,
-	  type   => dword,
-	  data   => bool2num($disabled),
-	}
+
+$regkey = ''
+
+    $registry_key = 'HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\'
+    registry_value { "${registry_key}Disabled":
+        ensure => present,
+        type   => dword,
+        data   => bool2num($disabled),
+    }
 }
