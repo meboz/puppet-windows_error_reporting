@@ -3,11 +3,15 @@
   "checksums": {
     "manifests\\init.pp": "5d5fe15988df301bb7e77520e4bfab87",
     "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "LICENSE": "9a2abe288cd6a0e2ad52643134565f4d",
+    "Gemfile": "3e56aefd599dd1dfcc11a192bba1b9bb",
     "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
     "tests\\init.pp": "6a167fd258320fbc53c19319b7bd4dca",
     "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
     "Modulefile": "a144e348f2413db0633920a39d668137",
-    "README.markdown": "4b9728a2e8dbb44e277960bcf1df43f7"
+    "README.md": "11d0213936480cdd7b631ff9b60e3b1b",
+    "README.markdown": "4b9728a2e8dbb44e277960bcf1df43f7",
+    "Gemfile.lock": "8a95ca337e47e5879a7b6a6bd56c2c65"
   },
   "dependencies": [
     {
