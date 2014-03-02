@@ -10,12 +10,10 @@
 #
 # Sample Usage:
 #
-class windows_error_reporting(
+
+class windows_error_reporting (
   $disabled = true
 ) {
-
-$regkey = ''
-
     $registry_key = 'HKLM\SOFTWARE\Microsoft\Windows\Windows Error Reporting\'
     registry_value { "${registry_key}Disabled":
         ensure => present,
